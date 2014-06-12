@@ -58,7 +58,8 @@ Parameters taken by Symba:
 
           -tpush-time=<number>        - Term push time limit (0.0,1.0] (balance parameter described in the paper)
 
-Some examples on how to run Symba. All paths are relative to `symba/build/ufo-prefix`
+Some examples on how to run Symba. All paths are relative to
+`symba/build/ufo-prefix/src/ufo`
 
 1. Symba(100). This is the default. Run on file "test/SMT-lib/ex1.smt2":
 
