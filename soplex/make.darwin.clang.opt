@@ -1,0 +1,2 @@
+CPPFLAGS       +=	-DNDEBUG
+CXXFLAGS       +=      -O3 -fexceptions -fomit-frame-pointer #-march=
