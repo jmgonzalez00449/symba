@@ -9,7 +9,7 @@ This repository contains a [CMake](http://www.cmake.org) project for automatic c
 
 2. Configure the build using cmake. Requires CMake version 2.8.11 or greater.
 
-        cd build && cmake ../
+        cd build && cmake -DCMAKE_BUILD_TYPE=Release -DWITH_APRON=ON -DWITH_SOPLEX=ON ../
 
 3. Download `soplex-1.7.1.tgz from`
    [here](http://soplex.zib.de/download.php?fname=soplex-1.7.1.tgz)
